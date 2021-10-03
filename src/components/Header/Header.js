@@ -7,7 +7,7 @@ import logo from '../../images/logo.png';
 const Header = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="dark" className = "shadow-sm">
+            <Navbar collapseonselect = "true" expand="lg" bg="light" variant="light" className = "shadow-sm">
                 <Container>
                     <NavLink to="/home"><img className="w-50" src={logo} alt="Logo" /></NavLink>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -25,8 +25,9 @@ const Header = () => {
                                 placeholder="Search"
                                 className="me-2"
                                 aria-label="Search"
+                                
                             />
-                            <Button className = "shadow-sm" variant="warning">Search</Button>
+                            <Button variant="primary">Search</Button>
                         </Form>
 
                     </Navbar.Collapse>

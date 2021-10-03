@@ -8,7 +8,7 @@ import Services from './components/Services/Services';
 import ContactUs from './components/Contact Us/ContactUs';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
             <PageNotFound />
           </Route>
         </Switch>
-        <Footer/>
+        {/* <Footer/> */}
       </Router>
 
     </div>

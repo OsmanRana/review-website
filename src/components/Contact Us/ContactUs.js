@@ -1,10 +1,32 @@
 import React from 'react';
+import { Button, Form } from 'react-bootstrap';
 
 const ContactUs = () => {
     return (
-        <div>
-            <h2>Contact</h2>
+        <>
+        <div className="container mt-5">
+            <div>
+                <h1 className ="text-primary">We’re Here to Help You</h1>
+                <p>We always want to hear from you! Let us know how we can best help you and we'll do our very best</p>
+            </div>
+            <div>
+                <Form className="mt-5">
+                    <Form.Group className=" mb-3 gap-4" controlId="exampleForm.ControlInput1">
+                        <Form.Control className="my-3" type="text" placeholder="Full Name" />
+                        <Form.Control type="email" placeholder="Email: name@example.com" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                        <Form.Control as="textarea" placeholder="Tell us a few words" rows={3} />
+                    </Form.Group>
+                </Form>
+            </div>
+            <div className="d-grid">
+                <Button variant="primary" size="lg">
+                    Send Your Message
+                </Button>
+            </div>
         </div>
+        </>
     );
 };
 
