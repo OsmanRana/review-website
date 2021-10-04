@@ -4,10 +4,10 @@ import logo from '../../images/logo.png'
 const Footer = () => {
     return (
         <div className="container">
-            
-            <footer className="container row align-items-center my-5" collapseonselect="true" expand="lg">
+<hr/>
+            <footer className="container row row-cols-1 row-cols-sm-2 row-cols-md-1 row-cols-lg-3 align-items-center my-5" collapseonselect="true" expand="lg">
                 {/* column -1 */}
-                <hr/>
+                
                 <div className="col">
                     <img style={{ width: "50px" }} src={logo} alt="" />
                 </div>
@@ -17,9 +17,12 @@ const Footer = () => {
                 </div>
                 {/* column -3 */}
                 <div className="col">
-                    <i className="me-3 fab fa-facebook"></i>
-                    <i className="me-3 fab fa-twitter"></i>
-                    <i className="fab fa-instagram"></i>
+                    
+                    <a href = "https://www.facebook.com/InceptionAcademicCare" rel ="noreferrer" target = "_blank"><i className="me-3 fab fa-facebook"></i></a>
+                    <a href = "https://www.twitter.com" rel ="noreferrer" target = "_blank"><i className="me-3 fab fa-twitter"></i></a>
+                    <a href = "https://www.instagram.com" rel ="noreferrer" target = "_blank"><i className="fab fa-instagram"></i></a>
+                    
+                    
                 </div>
 
             </footer>

@@ -9,6 +9,7 @@ import ContactUs from './components/Contact Us/ContactUs';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import TeacherDetail from './components/TeacherDetail/TeacherDetail';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/about">
             <AboutUs />
+          </Route>
+          <Route path="/teacher/:teacherId">
+            <TeacherDetail />
           </Route>
           <Route path="/contact">
             <ContactUs />
