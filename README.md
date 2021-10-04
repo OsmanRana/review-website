@@ -1,13 +1,13 @@
-# Getting Started with Create React App
+# Simple React Single Page Application: Educational Website named "Inception Academic Care"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Please feel free to visit the live site here: https://zealous-thompson-10aaac.netlify.app/home
 
-## Available Scripts
+## Technologies Used:
 
-In the project directory, you can run:
-
-### `npm start`
-
+### `React`
+### `React Bootstrap`
+### `React Router`
+### `Bootstrap`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
