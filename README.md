@@ -1,6 +1,6 @@
 # Simple React Single Page Application
 
-###`Educational Website named "Inception Academic Care"`  https://zealous-thompson-10aaac.netlify.app/home
+`Educational Website named "Inception Academic Care"`  https://zealous-thompson-10aaac.netlify.app/home
 
 ## Technologies Used:
 
