@@ -10,7 +10,7 @@ Please feel free to visit the live site here: https://zealous-thompson-10aaac.ne
 ### `Bootstrap`
 
 ## Features:
-#### Responsive on Devices
+#### Responsive on all Devices
 #### Will be a good fit for small Coaching and Training Centers
 #### Teachers can have their CV's created dynamically
 #### As a single page application will reduce load time
